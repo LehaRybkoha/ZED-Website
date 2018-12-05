@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) { //hd
+	html {
+		font-size: 16px;
+	}
+
+	.container {
+		width: rem(970px);
+	}
+}
+
+@media screen and (max-width: 992px) { //laptop
+	html {
+		font-size: rem(15px);
+	}
+
+	.container {
+		width: rem(750px);
+	}
+}
+
+@media screen and (max-width: 768px) { //Big tablets
+	html {
+		font-size: rem(14px);
+	}
+
+	.container {
+		width: rem(768px);
+	}
+}
+@media screen and (max-width: 650px) { //Small Tablets
+	html {
+		font-size: rem(14px);
+	}
+
+	.container {
+		width: rem(480px);
+	}
+}
+
+@media screen and (max-width: 480px) { //phones
+	html {
+		font-size: rem(12px);
+	}
+
+	.container {
+		min-width: rem(320px);
+	}
+}
+
+@media all and (max-width: 1200px) {
+
+}
