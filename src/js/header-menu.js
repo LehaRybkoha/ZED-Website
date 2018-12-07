@@ -9,9 +9,10 @@ $(document).ready(function() {
                   "theme-dark"
                ],
                "iconPanels": true,
-               "navbars": [
+               navbars: [
                   {
-                     "position": "top"
+                     "position": "top",
+                     title: 'new'
                   }
                ]
             });
