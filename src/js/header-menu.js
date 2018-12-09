@@ -9,12 +9,9 @@ $(document).ready(function() {
                   "theme-dark"
                ],
                "iconPanels": true,
-               navbars: [
-                  {
-                     "position": "top",
-                     title: 'new'
-                  }
-               ]
+               navbar: {
+                  title: '<img src="images/ZET.png" alt="Logo">'
+              }
             });
 
     var $icon = $("#mmenu-icon");

@@ -214,7 +214,7 @@ jQuery.mmenu.wrappers.olark=function(){this.conf.offCanvas.page.noSelector.push(
 jQuery.mmenu.i18n({Menu:"Menü"},"de");
 jQuery.mmenu.i18n({"Close menu":"Menü schließen","Close submenu":"Untermenü schließen","Open submenu":"Untermenü öffnen","Toggle submenu":"Untermenü wechseln"},"de");
 jQuery.mmenu.i18n({Search:"Suche","No results found.":"Keine Ergebnisse gefunden.",cancel:"beenden"},"de");
-jQuery.mmenu.i18n({Menu:"Menu"},"nl");
+jQuery.mmenu.i18n({Menu:"New"},"nl");
 jQuery.mmenu.i18n({"Close menu":"Menu sluiten","Close submenu":"Submenu sluiten","Open submenu":"Submenu openen","Toggle submenu":"Submenu wisselen"},"nl");
 jQuery.mmenu.i18n({Search:"Zoeken","No results found.":"Geen resultaten gevonden.",cancel:"annuleren"},"nl");
 jQuery.mmenu.i18n({Menu:"Меню"},"ru");
@@ -14717,37 +14717,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
 
-   var $menu = $("#menu").mmenu({
-      "slidingSubmenus": false,
-      "extensions": ["fx-panels-zoom", "pagedim-black", "position-right", "theme-dark"],
-      "iconPanels": true,
-      navbars: [{
-         "position": "top",
-         title: 'new'
-      }]
-   });
+    var $menu = $("#menu").mmenu({
+        "slidingSubmenus": false,
+        "extensions": ["fx-panels-zoom", "pagedim-black", "position-right", "theme-dark"],
+        "iconPanels": true,
+        navbar: {
+            title: '<img src="images/ZET.png" alt="Logo">'
+        }
+    });
 
-   var $icon = $("#mmenu-icon");
+    var $icon = $("#mmenu-icon");
 
-   var API = $menu.data("mmenu");
+    var API = $menu.data("mmenu");
 
-   $icon.on("click", function () {
+    $icon.on("click", function () {
 
-      API.open();
-   });
+        API.open();
+    });
 
-   API.bind("closed", function () {
+    API.bind("closed", function () {
 
-      setTimeout(function () {
+        setTimeout(function () {
 
-         $icon.removeClass("is-active");
-      }, 200);
+            $icon.removeClass("is-active");
+        }, 200);
 
-      $icon.on("click", function () {
+        $icon.on("click", function () {
 
-         API.open();
-      });
-   });
+            API.open();
+        });
+    });
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
@@ -14797,32 +14796,14 @@ google.maps.event.addDomListener(window, "load", initMap);
 
 /* WEBPACK VAR INJECTION */(function($) {var owl = $('.owl-carousel');
 owl.owlCarousel({
-    loop: true,
-    nav: true,
-    margin: 30,
-    center: true,
-    autoWidth: true,
+    items: 1,
+    margin: 10,
     autoHeight: true,
-    responsiveClass: true,
-    dots: true,
-    pagination: false,
+    loop: true,
+    pagination: true,
     autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    responsive: {
-        480: {
-            items: 1
-        },
-        650: {
-            items: 1
-        },
-        960: {
-            items: 1
-        },
-        1200: {
-            items: 1
-        }
-    }
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 

@@ -1,0 +1,25 @@
+.section-top {
+	padding-top: rem(100px);
+	display: flex;
+	justify-content: center;
+	&__tittle {
+		text-align: center;
+		padding-bottom: rem(12px);
+		&-middle {
+			color: $font-section-head;
+			font-weight: 400;
+			font-size: rem(15px);
+		}
+
+		&-top {
+			font-family: "Open Sans - Extrabold";
+			font-size: rem(35px);
+			font-weight: 700;
+			color: $font-section-head;
+		}
+
+		&-txt {
+			font-family: "Open Sans";
+		}
+	}
+}

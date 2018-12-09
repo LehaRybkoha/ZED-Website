@@ -1,0 +1,95 @@
+.team {
+	background-image: url('/images/bg-team.png');
+	min-height: rem(900px);
+  	height: 100vh;
+  	background-size: cover;
+  	background-position: center;
+  	&-top__tittle-top, &-top__tittle-middle {
+  		color: #fff;
+  	}
+  	&-content__list {
+  		display: flex;
+  		flex-direction: row;
+  		justify-content: center;
+  	}
+  	&-content__item {
+  		padding-right: rem(37px);
+  		padding-top: rem(100px) 0;
+  		&-tittle_list {
+  			display: flex;
+  			flex-direction: row;
+  			justify-content: space-around;
+  		}
+  	}
+  	&-content__item-tittle {
+  		justify-content: center;
+  		text-align: center;
+  		background-color: #f2f2f2;
+  		opacity: 0.75;
+  		&-head {
+  			font-family: 'Montserrat';
+  			font-size: rem(17px);
+  			font-weight: 700;
+  			line-height: rem(20px);
+  			color: $font-section-head;
+  			padding-top: rem(31px);
+  			padding-bottom: rem(5px);
+  			white-space: nowrap;
+  		}
+  		&-middle {
+  			opacity: 0.8;
+  			font-family: 'Montserrat';
+  			font-size: rem(16px);
+  			color: $font-section-head;
+  			font-weight: 400;
+  			line-height: rem(20px);
+  		}
+  		&-bottom {
+  			padding-bottom: rem(30px);
+  		}
+  	}
+}
+
+.team-content__button {
+	text-align: center;
+	padding: rem(100px) 0;
+	&-txt {
+		color: $font-head-style;
+		font-family: 'Montserrat';
+		font-size: rem(15px);
+		font-weight: 700;
+		line-height: rem(36px);
+		border: 1px solid $font-head-style;
+		padding: rem(15px) rem(25px);
+		border-radius: rem(50px);
+		&:hover {
+			background-color: $font-head-style;
+			color: black;
+		}
+	}
+}
+
+.team-content__item-last {
+	padding-right: 0;
+}
+
+.fa-facebook-f {
+	padding: rem(10px) rem(15px);
+}
+
+.fa-society {
+	font-size: rem(30px) !important;
+	color: #fff;
+	border:1px solid #fff;
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    padding: rem(10px);
+    overflow: hidden;
+}
+
+
+
+.fa-twitter:hover{background:#00acee;color:#fff;}
+.fa-instagram:hover{background:#3f729b;color:#fff;}
+.fa-facebook-f:hover{background:#3b5998;color:#fff;}
+.fa-vk:hover{background:#5d84ae;color:#fff;}

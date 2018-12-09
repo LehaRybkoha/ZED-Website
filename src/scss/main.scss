@@ -1,5 +1,8 @@
 //colors
 $font-head-style: #e8e8e8;
+$font-section-head: #29323c;
+$bg-services: #f5f5f5;
+$font-slider: #2b3746;
 // layout
 @import "_misc/mixins"; 
 @import "_misc/adjustment";
@@ -12,12 +15,16 @@ $font-head-style: #e8e8e8;
 
 // styles
 @import "sections/header";
+@import "sections/services";
+@import "sections/clients";
+@import "sections/team";
+
 @import "sections/works";
 //plugins
 @import "../../node_modules/hamburgers/dist/hamburgers.css";
 @import "../../node_modules/jquery.mmenu/dist/jquery.mmenu.all.css";
 
-// @import "../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css";
 
 //media
 @import "adaptive/media";

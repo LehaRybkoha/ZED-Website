@@ -20,13 +20,12 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&amp;subset=cyrillic" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="home">
 			<div class="container">
 				<div class="header-top">
 					<div class="header-top__left">
@@ -41,28 +40,28 @@
 						<nav id="menu" class="nav">
 							<ul class="nav__list">
 								<li class="nav__item">
-									<a href="" class="nav__link">Home</a>
+									<a href="#home" class="nav__link">Home</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Services</a>
+									<a href="#services" class="nav__link">Services</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Works</a>
+									<a href="#works" class="nav__link">Works</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Clients</a>
+									<a href="#clients" class="nav__link">Clients</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Team</a>
+									<a href="#team" class="nav__link">Team</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Companies</a>
+									<a href="#companies" class="nav__link">Companies</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Price</a>
+									<a href="#prices" class="nav__link">Price</a>
 								</li>
 								<li class="nav__item">
-									<a href="" class="nav__link">Contact Us</a>
+									<a href="#contact" class="nav__link">Contact Us</a>
 								</li>
 							</ul>
 						</nav>
@@ -78,24 +77,24 @@
 							<a href="" class="header__tittle-bottom-btn section__tittle-btn header-txt">LET'S TALK</a>
 						</div>
 					</div>
-					<div class="header-bottom__arrow"><a href="" class="header-bottom__arrow-btn"><i class="fas fa-angle-down"></i></a></div>
+					<div class="header-bottom__arrow"><a href="#services" class="header-bottom__arrow-btn"><i class="fas fa-angle-down"></i></a></div>
 				</div>
 			</div>
 		</header>
 
 		<!-- Services -->
 
-		<section class="section services">
+		<section class="section services" id="services">
 			<div class="container">
 
 				<!-- section-tittles -->
 				<div class="services-top section-top">
 					<div class="services-top__tittle section-top__tittle">
 						<div class="services-top__tittle-top section-top__tittle">
-							<h2 class="services-top__tittle-top section-top__tittle">SERVICES</h2>
+							<h2 class="services-top__tittle-top section-top__tittle-top section-top__tittle-txt">SERVICES</h2>
 						</div>
 						<div class="services-top__tittle-middle section-top__tittle-middle">
-							<p class="services-top__tittle-middle section-top__tittle-middle">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+							<p class="services-top__tittle-middle section-top__tittle-middle section-top__tittle-txt">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
 						</div>
 						<div class="services-top__tittle-bottom">
 							<img src="images/svg/line.svg" class="services-top__tittle-bottom-pic"></img>
@@ -107,7 +106,9 @@
 					<div class="services-content__list">
 						<ul class="services-content__list">
 							<li class="services-content__item">
-								<div class="services-content__item-head"><img src="images/nout.png" alt="" class="services-content__item-head"></div>
+								<div class="services-content__item-head">
+									<i class="fas fa-laptop services-content__item-head-pic"></i>
+								</div>
 								<div class="services-content__item-middle">
 									<h3 class="services-content__item-middle">FULLY RESPONSIVE</h3>
 								</div>
@@ -116,7 +117,9 @@
 								</div>
 							</li>
 							<li class="services-content__item">
-								<div class="services-content__item-head"><img src="images/setting.png" alt="" class="services-content__item-head"></div>
+								<div class="services-content__item-head">
+									<i class="fas fa-sliders-h services-content__item-head-pic"></i>
+								</div>
 								<div class="services-content__item-middle">
 									<h3 class="services-content__item-middle">EASY CUSTOMIZE</h3>
 								</div>
@@ -125,7 +128,9 @@
 								</div>
 							</li>
 							<li class="services-content__item">
-								<div class="services-content__item-head"><img src="images/seo.png" alt="" class="services-content__item-head"></div>
+								<div class="services-content__item-head">
+									<i class="far fa-map services-content__item-head-pic"></i>
+								</div>
 								<div class="services-content__item-middle">
 									<h3 class="services-content__item-middle">SEO READY</h3>
 								</div>
@@ -134,7 +139,9 @@
 								</div>
 							</li>
 							<li class="services-content__item">
-								<div class="services-content__item-head"><img src="images/heart.png" alt="" class="services-content__item-head"></div>
+								<div class="services-content__item-head">
+									<i class="far fa-heart services-content__item-head-pic"></i>
+								</div>
 								<div class="services-content__item-middle">
 									<h3 class="services-content__item-middle">MADE WITH LOVE</h3>
 								</div>
@@ -151,17 +158,17 @@
 
 		<!-- Works -->
 
-		<section class="section works">
+		<section class="section works" id="works">
 			<div class="container">
 
 				<!-- section-tittles -->
 				<div class="works-top section-top">
 					<div class="works-top__tittle section-top__tittle">
 						<div class="works-top__tittle-top section-top__tittle">
-							<h2 class="works-top__tittle-top section-top__tittle">WORKS</h2>
+							<h2 class="works-top__tittle-top section-top__tittle section-top__tittle-top section-top__tittle-txt">WORKS</h2>
 						</div>
 						<div class="works-top__tittle-middle section-top__tittle-middle">
-							<p class="works-top__tittle-middle section-top__tittle-middle">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+							<p class="works-top__tittle-middle section-top__tittle-middle section-top__tittle-txt">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
 						</div>
 						<div class="works-top__tittle-bottom">
 							<img src="images/svg/line.svg" class="works-top__tittle-bottom-pic"></img>
@@ -180,7 +187,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -191,7 +198,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -202,7 +209,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -213,7 +220,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -224,7 +231,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -235,7 +242,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -246,7 +253,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -257,7 +264,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -268,7 +275,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -279,7 +286,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a hre1f="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a hre1f="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -290,7 +297,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -301,7 +308,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -312,7 +319,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -323,7 +330,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -334,7 +341,7 @@
 									<span class="works-content__item-tittle-top works-content__item-tittle-txt">Web-name</span>
 								</div>
 								<div class="works-content__item-tittle-bottom">
-									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW</a>
+									<a href="" class="works-content__item-tittle-bottom works-content__item-tittle-txt">VIEW<i class="fas fa-angle-right works-content__item-tittle-txt-btn"></i></a>
 								</div>
 							</div>
 						</li>
@@ -345,17 +352,17 @@
 
 		<!-- Clients -->
 
-		<section class="section clients">
+		<section class="section clients" id="clients">
 			<div class="container">
 				
 				<!-- section-tittles -->
 				<div class="clients-top section-top">
 					<div class="clients-top__tittle section-top__tittle">
 						<div class="clients-top__tittle-top section-top__tittle">
-							<h2 class="clients-top__tittle-top section-top__tittle">CLIENTS</h2>
+							<h2 class="clients-top__tittle-top section-top__tittle section-top__tittle-top section-top__tittle-txt">HAPPY CLIENTS</h2>
 						</div>
 						<div class="clients-top__tittle-middle section-top__tittle-middle">
-							<p class="clients-top__tittle-middle section-top__tittle-middle">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+							<p class="clients-top__tittle-middle section-top__tittle-middle section-top__tittle-txt">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
 						</div>
 						<div class="clients-top__tittle-bottom">
 							<img src="images/svg/line.svg" class="clients-top__tittle-bottom-pic"></img>
@@ -363,44 +370,98 @@
 					</div>
 				</div>
 
-				<div class="clients-content owl-carousel">
-					<div class="clients-content__head">
-						<p class="clients-content__head-txt clients-content__head">Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
-						<span class="clients-content__head-txt-commas">”</span>
-					</div>
-					<div class="clients-content__middle">
-						<div class="clients-content__middle-head">
-							<img src="images/adam.png" alt="" class="clients-content__middle-head-pic">
-						</div>
-						<div class="clients-content__middle-desc">
-							<div class="clients-content__middle-desc-tittle">
-								<h4 class="clients-content__middle-desc-tittle-head">Vasily Nganu</h4>
-								<div class="clients-content__middle-desc-tittle-bottom">
-									<span class="clients-content__middle-desc-tittle-bottom">Dropbox Senior Developer</span>
+				<div class="clients-content">
+					<ul class="clients-content__list owl-carousel owl-theme owl-loaded owl-drag">
+						<li class="clients-content__item">
+							<div class="clients-content__item-head">
+								<p class="clients-content__item-head-txt">Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
+								<span class="clients-content__head-txt-commas">”</span>
+							</div>
+							<div class="clients-content__item-middle">
+								<div class="clients-content__item-middle-head"><img src="images/adam.png" alt="" class="clients-content__item-middle-head-pic"></div>
+								<div class="clients-content__item-middle-desc">
+									<div class="clients-content__item-middle-desc">
+										<div class="clients-content__item-middle-desc-tittle">
+											<h3 class="clients-content__item-middle-desc-tittle-head">Vasily Nganu</h3>
+											<div class="clients-content__middle-desc-tittle-bottom"><span class="clients-content__middle-desc-tittle-bottom-txt">Dropbox Senior Developer</span></div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
+						</li>
+						<li class="clients-content__item">
+							<div class="clients-content__item-head">
+								<p class="clients-content__item-head-txt">Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
+								<span class="clients-content__head-txt-commas">”</span>
+							</div>
+							<div class="clients-content__item-middle">
+								<div class="clients-content__item-middle-head"><img src="images/adam.png" alt="" class="clients-content__item-middle-head-pic"></div>
+								<div class="clients-content__item-middle-desc">
+									<div class="clients-content__item-middle-desc">
+										<div class="clients-content__item-middle-desc-tittle">
+											<h3 class="clients-content__item-middle-desc-tittle-head">Vasily Nganu</h3>
+											<div class="clients-content__middle-desc-tittle-bottom"><span class="clients-content__middle-desc-tittle-bottom-txt">Dropbox Senior Developer</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="clients-content__item">
+							<div class="clients-content__item-head">
+								<p class="clients-content__item-head-txt">Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
+								<span class="clients-content__head-txt-commas">”</span>
+							</div>
+							<div class="clients-content__item-middle">
+								<div class="clients-content__item-middle-head"><img src="images/adam.png" alt="" class="clients-content__item-middle-head-pic"></div>
+								<div class="clients-content__item-middle-desc">
+									<div class="clients-content__item-middle-desc">
+										<div class="clients-content__item-middle-desc-tittle">
+											<h3 class="clients-content__item-middle-desc-tittle-head">Vasily Nganu</h3>
+											<div class="clients-content__middle-desc-tittle-bottom"><span class="clients-content__middle-desc-tittle-bottom-txt">Dropbox Senior Developer</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="clients-content__item">
+							<div class="clients-content__item-head">
+								<p class="clients-content__item-head-txt">Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
+								<span class="clients-content__head-txt-commas">”</span>
+							</div>
+							<div class="clients-content__item-middle">
+								<div class="clients-content__item-middle-head"><img src="images/adam.png" alt="" class="clients-content__item-middle-head-pic"></div>
+								<div class="clients-content__item-middle-desc">
+									<div class="clients-content__item-middle-desc">
+										<div class="clients-content__item-middle-desc-tittle">
+											<h3 class="clients-content__item-middle-desc-tittle-head">Vasily Nganu</h3>
+											<div class="clients-content__middle-desc-tittle-bottom"><span class="clients-content__middle-desc-tittle-bottom-txt">Dropbox Senior Developer</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</section>
 
 		<!-- Team -->
 
-		<section class="section">
+		<section class="section team" id="team">
 			<div class="container">
 					
-				<!-- section-tittles -->
-				<div class="team-top section-top">
-					<div class="team-top__tittle section-top__tittle">
-						<div class="team-top__tittle-top section-top__tittle">
-							<h2 class="team-top__tittle-top section-top__tittle">OUR PROFESSIONAL TEAM</h2>
-						</div>
-						<div class="team-top__tittle-middle section-top__tittle-middle">
-							<p class="team-top__tittle-middle section-top__tittle-middle">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
-						</div>
-						<div class="team-top__tittle-bottom">
-							<img src="images/svg/line.svg" class="team-top__tittle-bottom-pic"></img>
+					<!-- section-tittles -->
+					<div class="team-top section-top">
+						<div class="team-top__tittle section-top__tittle">
+							<div class="team-top__tittle-top section-top__tittle">
+								<h2 class="team-top__tittle-top section-top__tittle section-top__tittle-top section-top__tittle-txt">OUR PROFESSIONAL TEAM</h2>
+							</div>
+							<div class="team-top__tittle-middle section-top__tittle-middle">
+								<p class="team-top__tittle-middle section-top__tittle-middle section-top__tittle-txt">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+							</div>
+							<div class="team-top__tittle-bottom">
+								<img src="images/svg/team-border.svg" class="team-top__tittle-bottom-pic"></img>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -420,19 +481,29 @@
 									<div class="team-content__item-tittle-bottom">
 										<ul class="team-content__item-tittle_list">
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-facebook-f fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social twitter">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-twitter fa-2x fa-society"></i></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social instagram">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-instagram fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 										</ul>
 									</div>
@@ -450,19 +521,29 @@
 									<div class="team-content__item-tittle-bottom">
 										<ul class="team-content__item-tittle_list">
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-facebook-f fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social twitter">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-twitter fa-2x fa-society"></i></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social instagram">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-instagram fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 										</ul>
 									</div>
@@ -480,25 +561,35 @@
 									<div class="team-content__item-tittle-bottom">
 										<ul class="team-content__item-tittle_list">
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social facebook">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-facebook-f fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social twitter">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-twitter fa-2x fa-society"></i></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social instagram">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-instagram fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 										</ul>
 									</div>
 								</div>
 							</li>
-							<li class="team-content__item">
+							<li class="team-content__item team-content__item-last">
 								<img src="images/hufflepuff.png" alt="" class="team-content__item-pic">
 								<div class="team-content__item-tittle">
 									<div class="team-content__item-tittle-head">
@@ -510,19 +601,29 @@
 									<div class="team-content__item-tittle-bottom">
 										<ul class="team-content__item-tittle_list">
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-facebook-f fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social twitter">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-twitter fa-2x fa-society"></i></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social instagram">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-instagram fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 											<li class="team-content__item-tittle_item">
-												<div class="team-content__item-tittle_item-sociate"></div>
+												<div class="team-content__item-tittle_item-sociate social vk">
+													<a href="#" target="_blank" class="social__link"><i class="fab fa-vk fa-2x fa-society"></i></a>
+												</div>
 											</li>
 										</ul>
 									</div>
@@ -530,14 +631,14 @@
 							</li>
 						</ul>
 					</div>
-					<div class="team-content__button"><a href="#" class="team-content__button">MEET OUR FULL TEAM</a></div>
+					<div class="team-content__button"><a href="#" class="team-content__button-txt">MEET OUR FULL TEAM</a></div>
 				</div>
-			</div>
+			
 		</section>
 
 		<!-- Company -->
 
-		<section class="section company">
+		<section class="section company" id="company">
 			<div class="container">
 				<div class="company__list">
 					<ul class="company__list">
@@ -553,24 +654,24 @@
 
 		<!-- Price -->
 
-		<section class="section price">
+		<section class="section price" id="price">
 			<div class="container">
 									
 				<!-- section-tittles -->
 				<div class="price-top section-top">
 					<div class="price-top__tittle section-top__tittle">
 						<div class="price-top__tittle-top section-top__tittle">
-							<h2 class="price-top__tittle-top section-top__tittle">PRICING TABLE</h2>
+							<h2 class="price-top__tittle-top section-top__tittle section-top__tittle-top section-top__tittle-txt">PRICING TABLE</h2>
 						</div>
 						<div class="price-top__tittle-middle section-top__tittle-middle">
-							<p class="price-top__tittle-middle section-top__tittle-middle">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
+							<p class="price-top__tittle-middle section-top__tittle-middle section-top__tittle-txt">Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
 						</div>
 						<div class="price-top__tittle-bottom">
 							<img src="images/svg/line.svg" class="price-top__tittle-bottom-pic"></img>
 						</div>
 					</div>
 
-					<div class="price-content">
+					<div class="price-content" id="price">
 						<div class="price-content__list">
 							<ul class="price-content__list">
 								<li class="price-content__item">
@@ -645,7 +746,7 @@
 
 		<!-- contact -->
 
-		<section class="section contact">
+		<section class="section contact" id="contact">
 			<div class="container">
 				<div class="contact-content">
 					<div class="contact-content__left">
