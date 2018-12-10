@@ -2,7 +2,10 @@
 $font-head-style: #e8e8e8;
 $font-section-head: #29323c;
 $bg-services: #f5f5f5;
+$form-style: #f6f6f6;
+$border-form: #f2f2f2;
 $font-slider: #2b3746;
+$font-price-section: #485563;
 // layout
 @import "_misc/mixins"; 
 @import "_misc/adjustment";
@@ -16,10 +19,14 @@ $font-slider: #2b3746;
 // styles
 @import "sections/header";
 @import "sections/services";
+@import "sections/works";
 @import "sections/clients";
 @import "sections/team";
+@import "sections/company";
+@import "sections/price";
+@import "sections/form";
 
-@import "sections/works";
+
 //plugins
 @import "../../node_modules/hamburgers/dist/hamburgers.css";
 @import "../../node_modules/jquery.mmenu/dist/jquery.mmenu.all.css";

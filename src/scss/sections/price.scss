@@ -1,0 +1,99 @@
+.price {
+	&-top__tittle {
+		padding-bottom: rem(100px);
+	}
+	&-content__list {
+		display: flex;
+		flex-direction: row;
+	}
+	&-content__item {
+		max-width: rem(425px);
+		max-height: rem(800px);
+	}
+	&-content__item-tittle-head-wrap {
+		padding-top: rem(50px);
+	}
+	&-content__item-tittle-wrap-middle {
+		margin-top: rem(-33px);
+		min-height: rem(206px);
+		border-top: 5px solid  $font-price-section !important;
+	}
+	&-content__item-tittle-wrap {
+		border: 1px solid #dddddd;
+		text-align: center;
+	}
+	&-content__item-content {
+		border: 1px solid #dddddd;
+	}
+	&-content__item-tittle-txt {
+		font-family: 'Montserrat';
+		color: $font-price-section;
+	}
+	&-content__item-tittle-head {
+		padding: rem(13px) rem(80px) rem(5px) rem(80px);
+		font-size: rem(22px);
+		font-weight: 700;
+		line-height: rem(36px);
+		white-space: nowrap;
+		justify-content: center;
+		display: flex;
+	}
+	&-content__item-tittle-middle {
+		padding-bottom: rem(15px);
+		font-size: rem(50px);
+		font-weight: 700;
+		line-height: rem(9px);
+	}
+	&-content__item-tittle-bottom {
+		padding-bottom: rem(30px);
+		opacity: 0.8;
+		color: $font-section-head;
+		font-family: 'Open Sans';
+		font-size: rem(16px);
+		font-weight: 300;
+		line-height: rem(9px);
+	}
+	&-content__item-content {
+		text-align: center;
+	}
+	&-content__item-content-head {
+		padding: rem(50px) 0 rem(40px) 0;
+		color: $font-section-head;
+		font-family: 'Open Sans';
+		font-size: rem(16px);
+		font-weight: 700;
+		line-height: rem(40px);
+		text-align: center;
+	}
+	&-content__item-content-desc {
+
+		padding-bottom: rem(30px);
+	}
+	&-content__item-content-button {
+		padding: rem(2px) rem(40px);
+		border-radius: rem(50px);
+		border: 2px solid $font-price-section;
+		background-color: $font-price-section;
+		color: $font-head-style;
+		font-family: 'Montserrat';
+		font-size: rem(15px);
+		font-weight: 700;
+		line-height: rem(38px);
+		text-align: center;
+		justify-content: center;
+		display: inline-flex;
+		&:hover {
+			background-color: #fff;
+			color: black;
+		}
+	}
+	&-content__item-content-head--last {
+		padding-bottom: rem(12px) !important;
+		margin-bottom: 0; 
+	}
+}
+
+.fa-dollar-sign {
+	padding-right: rem(5px);
+	font-size: rem(47px);
+}

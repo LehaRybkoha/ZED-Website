@@ -1,0 +1,12 @@
+.company {
+	background-color: $bg-services;
+	padding: rem(42px) 0;
+	&__item {
+		padding: 0 rem(43px);
+	}
+	&__list {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
