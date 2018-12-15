@@ -2,7 +2,7 @@ $lighter-color-head: lighten($font-head-style, 20%);
 .header {
 	display: flex;
   	display: -ms-flexbox;
-  	background-image: url('/images/bg-header.png');
+  	background-image: url('/images/bg-header-or8.png');
   	min-height: rem(700px);
   	height: 100vh;
   	background-size: cover;
@@ -38,10 +38,14 @@ $lighter-color-head: lighten($font-head-style, 20%);
 		padding-top: rem(40px);
 		justify-content: flex-start;
 	}
+	&-top__left, .logo {
+		display: inline-block;
+	}
 
 	&-top__right {
 		justify-content: flex-end;
 		float: right;
+		padding-top: rem(20px);
 	}
 	&__tittle-bottom-btn {
 		font-family: 'Montserrat';

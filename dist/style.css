@@ -4392,7 +4392,7 @@ th {
 .header {
   display: flex;
   display: -ms-flexbox;
-  background-image: url("/images/bg-header.png");
+  background-image: url("/images/bg-header-or8.png");
   min-height: 43.75rem;
   height: 100vh;
   background-size: cover;
@@ -4422,9 +4422,12 @@ th {
   .header-top__left {
     padding-top: 2.5rem;
     justify-content: flex-start; }
+  .header-top__left, .header .logo {
+    display: inline-block; }
   .header-top__right {
     justify-content: flex-end;
-    float: right; }
+    float: right;
+    padding-top: 1.25rem; }
   .header__tittle-bottom-btn {
     font-family: 'Montserrat';
     font-size: 1rem;
@@ -4670,7 +4673,7 @@ th {
       background-color: #e8e8e8;
       color: black; }
 
-.team-content__item-last {
+.team-content__item-four {
   padding-right: 0; }
 
 .fa-facebook-f {
@@ -4709,97 +4712,85 @@ th {
   .company__list {
     display: flex;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center !important;
+    height: 4rem; }
 
-.price-top__tittle {
+.price {
   padding-bottom: 6.25rem; }
-
-.price-content__list {
-  display: flex;
-  flex-direction: row; }
-
-.price-content__item {
-  max-width: 26.5625rem;
-  max-height: 50rem; }
-
-.price-content__item-tittle-head-wrap {
-  padding-top: 3.125rem; }
-
-.price-content__item-tittle-wrap-middle {
-  margin-top: -2.0625rem;
-  min-height: 12.875rem;
-  border-top: 5px solid #485563 !important; }
-
-.price-content__item-tittle-wrap {
-  border: 1px solid #dddddd;
-  text-align: center; }
-
-.price-content__item-content {
-  border: 1px solid #dddddd; }
-
-.price-content__item-tittle-txt {
-  font-family: 'Montserrat';
-  color: #485563; }
-
-.price-content__item-tittle-head {
-  padding: 0.8125rem 5rem 0.3125rem 5rem;
-  font-size: 1.375rem;
-  font-weight: 700;
-  line-height: 2.25rem;
-  white-space: nowrap;
-  justify-content: center;
-  display: flex; }
-
-.price-content__item-tittle-middle {
-  padding-bottom: 0.9375rem;
-  font-size: 3.125rem;
-  font-weight: 700;
-  line-height: 0.5625rem; }
-
-.price-content__item-tittle-bottom {
-  padding-bottom: 1.875rem;
-  opacity: 0.8;
-  color: #29323c;
-  font-family: 'Open Sans';
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 0.5625rem; }
-
-.price-content__item-content {
-  text-align: center; }
-
-.price-content__item-content-head {
-  padding: 3.125rem 0 2.5rem 0;
-  color: #29323c;
-  font-family: 'Open Sans';
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 2.5rem;
-  text-align: center; }
-
-.price-content__item-content-desc {
-  padding-bottom: 1.875rem; }
-
-.price-content__item-content-button {
-  padding: 0.125rem 2.5rem;
-  border-radius: 3.125rem;
-  border: 2px solid #485563;
-  background-color: #485563;
-  color: #e8e8e8;
-  font-family: 'Montserrat';
-  font-size: 0.9375rem;
-  font-weight: 700;
-  line-height: 2.375rem;
-  text-align: center;
-  justify-content: center;
-  display: inline-flex; }
-  .price-content__item-content-button:hover {
-    background-color: #fff;
-    color: black; }
-
-.price-content__item-content-head--last {
-  padding-bottom: 0.75rem !important;
-  margin-bottom: 0; }
+  .price-top__tittle {
+    padding-bottom: 6.25rem; }
+  .price-content__list {
+    display: flex;
+    flex-direction: row; }
+  .price-content__item {
+    max-width: 26.5625rem;
+    max-height: 50rem; }
+  .price-content__item-tittle-head-wrap {
+    padding-top: 3.125rem; }
+  .price-content__item-tittle-wrap-middle {
+    margin-top: -2.0625rem;
+    min-height: 12.875rem;
+    border-top: 5px solid #485563 !important; }
+  .price-content__item-tittle-wrap {
+    border: 1px solid #dddddd;
+    text-align: center; }
+  .price-content__item-content {
+    border: 1px solid #dddddd; }
+  .price-content__item-tittle-txt {
+    font-family: 'Montserrat';
+    color: #485563; }
+  .price-content__item-tittle-head {
+    padding: 0.8125rem 5rem 0.3125rem 5rem;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    white-space: nowrap;
+    justify-content: center;
+    display: flex; }
+  .price-content__item-tittle-middle {
+    padding-bottom: 0.9375rem;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 0.5625rem; }
+  .price-content__item-tittle-bottom {
+    padding-bottom: 1.875rem;
+    opacity: 0.8;
+    color: #29323c;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 0.5625rem; }
+  .price-content__item-content {
+    text-align: center; }
+  .price-content__item-content-head {
+    padding: 3.125rem 0 2.5rem 0;
+    color: #29323c;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: center; }
+  .price-content__item-content-desc {
+    padding-bottom: 1.875rem; }
+  .price-content__item-content-button {
+    padding: 0.125rem 2.5rem;
+    border-radius: 3.125rem;
+    border: 2px solid #485563;
+    background-color: #485563;
+    color: #e8e8e8;
+    font-family: 'Montserrat';
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex; }
+    .price-content__item-content-button:hover {
+      background-color: #fff;
+      color: black; }
+  .price-content__item-content-head--last {
+    padding-bottom: 0.75rem !important;
+    margin-bottom: 0; }
 
 .fa-dollar-sign {
   padding-right: 0.3125rem;
@@ -4941,6 +4932,27 @@ th {
   .container {
     width: 60.625rem; } }
 
+@media screen and (max-width: 1024px) {
+  .works-content__list .works-content__item-tittle {
+    opacity: 1; }
+  .team {
+    min-height: 106.25rem; }
+  .team-content__list {
+    flex-wrap: wrap; }
+  .team-content__item {
+    padding: 3.125rem 0; }
+  .contact-content {
+    flex-wrap: wrap; }
+  .contact-content__right {
+    padding: 6.25rem 0; }
+  .price-content__list {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .price-content__item {
+    padding-bottom: 6.25rem; }
+  .price-content__item-first {
+    margin-bottom: 250px; } }
+
 @media screen and (max-width: 992px) {
   html {
     font-size: 0.9375rem; }
@@ -4963,7 +4975,19 @@ th {
   html {
     font-size: 0.75rem; }
   .container {
-    min-width: 20rem; } }
+    min-width: 20rem; }
+  .header__tittle {
+    height: 37.9375rem; }
+  .services-content__list {
+    flex-wrap: wrap; }
+  .services-content__item {
+    padding-bottom: 6.25rem; }
+  .team {
+    min-height: 200rem; } }
+
+@media screen and (max-width: 320px) {
+  .header__tittle {
+    height: 33.125rem; } }
 
 
 /*# sourceMappingURL=style.css.map*/
