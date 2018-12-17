@@ -6,6 +6,7 @@ $form-style: #f6f6f6;
 $border-form: #f2f2f2;
 $font-slider: #2b3746;
 $font-price-section: #485563;
+$society: #525961;
 // layout
 @import "_misc/mixins"; 
 @import "_misc/adjustment";
@@ -25,6 +26,7 @@ $font-price-section: #485563;
 @import "sections/company";
 @import "sections/price";
 @import "sections/form";
+@import "sections/footer";
 
 
 //plugins

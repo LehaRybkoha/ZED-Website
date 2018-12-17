@@ -12,6 +12,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
   		width: 1100px;
+  		height: 648px;
 	}
 	&-content__right-form-head {
 		display: inline-flex;
@@ -59,6 +60,14 @@
 			border: 1px solid $font-price-section;
 		}
 	}
+}
+
+.contact-content__left-map-mobile {
+	display: none;
+}
+
+.contact-content__right-form-name-txt-mess-mobile, .contact-content__right-form-name-txt-mobile {
+	display: none;
 }
 
 .form_inputs:focus {

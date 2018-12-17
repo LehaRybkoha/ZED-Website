@@ -74,14 +74,18 @@
 }
 
 .fa-facebook-f {
-	padding: rem(10px) rem(15px);
+	padding: rem(10px) rem(15px) !important;
+}
+
+.fa-instagram {
+  padding: rem(10px) rem(13px) !important;
 }
 
 .fa-society {
 	font-size: rem(30px) !important;
 	color: #fff;
 	border:1px solid #fff;
-    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    background-color: $society;
     border-radius: 50%;
     padding: rem(10px);
     overflow: hidden;
@@ -90,6 +94,6 @@
 
 
 .fa-twitter:hover{background:#00acee;color:#fff;}
-.fa-instagram:hover{background:#3f729b;color:#fff;}
+.fa-instagram:hover{background:#FF46AC;color:#fff;}
 .fa-facebook-f:hover{background:#3b5998;color:#fff;}
 .fa-vk:hover{background:#5d84ae;color:#fff;}
