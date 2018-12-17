@@ -4392,7 +4392,7 @@ th {
 .header {
   display: flex;
   display: -ms-flexbox;
-  background-image: url("/images/bg-header-or8.png");
+  background-image: url("images/bg-header-or8.png");
   min-height: 43.75rem;
   height: 100vh;
   background-size: cover;
@@ -4615,7 +4615,7 @@ th {
       padding-bottom: 0.75rem; }
 
 .team {
-  background-image: url("/images/bg-team.png");
+  background-image: url("images/bg-team.png");
   min-height: 56.25rem;
   height: 100vh;
   background-size: cover;
@@ -4808,7 +4808,7 @@ th {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-image: url("/images/bg-form.jpg");
+  background-image: url("images/bg-form.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1100px;
